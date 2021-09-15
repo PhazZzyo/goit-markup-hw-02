@@ -1,0 +1,108 @@
+:root {
+  --grey: #757575;
+  --black: #000;
+  --blue: #2196f3;
+  --dark_bg: #2f303a;
+  --dark_text: #212121;
+  --white: #fff;
+}
+
+body {
+  color: var(--grey);
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--black);
+  font-family: raleway;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.blue_logo {
+  color: var(--blue);
+}
+
+header {
+  width: 1600;
+  height: 80;
+}
+
+.site_nav .link {
+  color: var(--dark_text);
+  text-decoration: none;
+}
+
+.site_nav .link:hover,
+.site_nav .link:focus {
+  color: var(--blue);
+}
+
+.site_nav .link.current {
+  color: var(--blue);
+}
+
+.header1 {
+  text-transform: uppercase;
+}
+
+.header2 {
+  color: var(--dark_text);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: var(--dark_bg);
+  color: var(--white);
+  width: 1600;
+  height: 600;
+}
+
+button {
+  color: var(--white);
+  background-color: var(--blue);
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* .features {
+} */
+
+.header3 {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.team {
+  color: var(--grey);
+  font-size: 16px;
+}
+
+.team .header3 {
+  color: var(--dark_text);
+  text-transform: none;
+  font-size: 16px;
+}
+
+.site_footer {
+  background-color: var(--dark_bg);
+  color: var(--white);
+}
+
+.site_footer .logo {
+  color: var(--white);
+}
+
+.site_footer .link {
+  color: var(--white);
+  text-decoration: none;
+}
