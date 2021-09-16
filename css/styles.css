@@ -8,14 +8,6 @@
   --button_grey: #f5f4fa;
 }
 
-address {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
 .body {
   color: var(--grey);
   font-family: roboto;
@@ -112,6 +104,7 @@ address {
   color: var(--white);
   background-color: var(--blue);
   font-weight: 700;
+  cursor: pointer;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -126,6 +119,7 @@ address {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .port_button.current {
@@ -198,6 +192,16 @@ address {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* portfolio */
 
 .gal_header {
   font-style: normal;
