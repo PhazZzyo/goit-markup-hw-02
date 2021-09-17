@@ -45,14 +45,6 @@
   letter-spacing: 0.02em;
 }
 
-.link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
 .site_nav .link {
   color: var(--dark_text);
   text-decoration: none;
@@ -113,6 +105,7 @@
 .port_button {
   color: var(--dark_text);
   background-color: var(--button_grey);
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
